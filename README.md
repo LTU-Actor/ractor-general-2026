@@ -11,7 +11,7 @@ python3 -m venv .venv                   # Create a virtual environment
 source .venv/bin/activate               # Activate the virtual environment
 pip install -r requirements.txt         # Install dependencies
 source /opt/ros/jazzy/setup.bash        # Source the ROS2 environment
-        # If you have vcstool installed
+        # If you have vcstool installed (sudo apt install python3-vcstool)
         git clone https://github.com/LTU-Actor/rACTOR2026
         vcs import src < <Folder_name.repos>    #Import the repositories needed (Check below for the folder structure)
 ```
@@ -59,4 +59,4 @@ rACTOR2026/
     ├── [rACTOr_pi_launches](Misc/rACTOr_pi_launches/)
     │
     └── [schoolbus_description](Misc/schoolbus_description/)
-``` rACTOR2026
+```

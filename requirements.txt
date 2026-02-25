@@ -14,4 +14,7 @@ nicegui==1.4.20
 pillow==10.3.0
 tornado==6.4
 simplejpeg==1.7.2
-ultralytics torch easyocr odrive
+ultralytics
+torch
+easyocr
+odrive

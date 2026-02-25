@@ -1,0 +1,33 @@
+repositories:
+  Vision/blob_follow_ros2:
+    type: git
+    url: https://github.com/LTU-Actor/blob_follow_ros2
+    version: master
+  vision/cloud_regions_cpp:
+    type: git
+    url: https://github.com/LTU-Actor/cloud_regions_cpp
+    version: master
+  vision/cloud_regions_python:
+    type: git
+    url: https://github.com/LTU-Actor/cloud_regions_python
+    version: master
+  vision/image_hsv_masker:
+    type: git
+    url: https://github.com/LTU-Actor/image_hsv_masker
+    version: master
+  vision/pothole_detector:
+    type: git
+    url: https://github.com/LTU-Actor/pothole_detector
+    version: master
+  vision/route_yolo_ros2:
+    type: git
+    url: https://github.com/LTU-Actor/route_yolo_ros2
+    version: master
+  vision/routecam_ros2:
+    type: git
+    url: https://github.com/LTU-Actor/routecam_ros2
+    version: master
+  vision/usbcam_simple_ros2:
+    type: git
+    url: https://github.com/LTU-Actor/usbcam_simple_ros2
+    version: master

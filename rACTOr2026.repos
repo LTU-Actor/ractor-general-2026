@@ -1,0 +1,73 @@
+repositories:
+
+#===============CONTROL===============
+  control/control_tower_ros2:
+    type: git
+    url: https://github.com/LTU-Actor/control_tower_ros2
+    version: master
+  control/ibus_reader:
+    type: git
+    url: https://github.com/LTU-Actor/ibus_reader
+    version: master
+
+#===============DRIVING===============
+  driving/mqtt_wheel_bridge:
+    type: git
+    url: https://github.com/LTU-Actor/mqtt_wheel_bridge
+    version: master
+  driving/nav2_schoolbus:
+    type: git
+    url: https://github.com/LTU-Actor/nav2_schoolbus
+    version: master
+  driving/schoolbus_odrive_config:
+    type: git
+    url: https://github.com/LTU-Actor/schoolbus_odrive_config
+    version: master
+
+#===============VISION===============
+  vision/blob_follow_ros2:
+    type: git
+    url: https://github.com/LTU-Actor/blob_follow_ros2
+    version: master
+  vision/cloud_regions_cpp:
+    type: git
+    url: https://github.com/LTU-Actor/cloud_regions_cpp
+    version: master
+  vision/cloud_regions_python:
+    type: git
+    url: https://github.com/LTU-Actor/cloud_regions_python
+    version: master
+  vision/image_hsv_masker:
+    type: git
+    url: https://github.com/LTU-Actor/image_hsv_masker
+    version: master
+  vision/pothole_detector:
+    type: git
+    url: https://github.com/LTU-Actor/pothole_detector
+    version: master
+  vision/route_yolo_ros2:
+    type: git
+    url: https://github.com/LTU-Actor/route_yolo_ros2
+    version: master
+  vision/routecam_ros2:
+    type: git
+    url: https://github.com/LTU-Actor/routecam_ros2
+    version: master
+  vision/usbcam_simple_ros2:
+    type: git
+    url: https://github.com/LTU-Actor/usbcam_simple_ros2
+    version: master
+    
+#===============MISC===============
+  misc/IGVC-WT32ETH01:
+    type: git
+    url: https://github.com/LTU-Actor/IGVC-WT32ETH01
+    version: master
+  misc/rACTOr_pi_launches:
+    type: git
+    url: https://github.com/LTU-Actor/rACTOr_pi_launches
+    version: master
+  misc/schoolbus_description:
+    type: git
+    url: https://github.com/LTU-Actor/schoolbus_description
+    version: master
